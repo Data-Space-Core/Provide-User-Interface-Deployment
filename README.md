@@ -29,7 +29,7 @@ Follow these steps to start the services using Docker Compose:
    ```
 4. **Navigate to the project directory**
    ```
-   cd /Provide-User-Interface-Deployment
+   cd Provide-User-Interface-Deployment
    ```
 5. **Start the containers**
    ```
