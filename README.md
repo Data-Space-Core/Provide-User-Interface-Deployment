@@ -20,13 +20,13 @@ The Provide User Interface is configured using an environment file (.env):
 
 ## Running the Service
 1. Start the service:
-   ```sh
-   docker-compose up -d
+   ```
+   docker compose up --build -d
    ```
 
 ## Checking if Running
 1. Check running containers:
-   ```sh
+   ```
    docker ps
    ```
 2. Access the application at:
@@ -36,7 +36,7 @@ The Provide User Interface is configured using an environment file (.env):
 
 ## Shutting Down
 1. Stop the service:
-   ```sh
-   docker-compose down
+   ```
+   docker compose down -v
    ```
 
