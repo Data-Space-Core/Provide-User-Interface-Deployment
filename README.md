@@ -41,7 +41,7 @@ Follow these steps to start the services using Docker Compose:
    ```
 7. **Check logs if needed**
    ```
-   docker compose logs -f <container-id>
+   docker compose logs -f provide-user-interface
    ```
    
 8. **Access DSIL Connector Provider Interface application**
