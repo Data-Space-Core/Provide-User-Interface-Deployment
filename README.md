@@ -20,8 +20,9 @@ The Provide User Interface is configured using an environment file (.env):
 Follow these steps to start the services using Docker Compose:
 
 1. **Run the DSILC**
+   Proceed to 
    ```
-   Proceed to https://github.com/Data-Space-Core/Connector-Deployment
+   https://github.com/Data-Space-Core/Connector-Deployment
    ```
 2. **Clone the repository**
    ```
