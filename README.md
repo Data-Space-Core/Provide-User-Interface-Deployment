@@ -35,7 +35,7 @@ Follow these steps to start the services using Docker Compose:
    ```
    docker compose up --build -d
    ```
-5. **Start the containers**
+5. **Run the migrations**
    ```
    docker exec -ti provide-user-interface python manage.py migrate
    ```
