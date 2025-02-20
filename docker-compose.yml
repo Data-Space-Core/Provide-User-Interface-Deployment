@@ -1,5 +1,6 @@
 services:
   provide-user-interface:
+    container_name: provide-user-interface
     image: ghcr.io/data-space-core/provide-user-interface/stage:latest
     command: gunicorn core.wsgi:application --bind 0.0.0.0:8000
     volumes:
