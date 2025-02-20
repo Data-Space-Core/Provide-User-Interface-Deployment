@@ -15,7 +15,7 @@ Before proceeding, ensure you have the following installed on your system:
 The Provide User Interface is configured using an environment file (.env): 
 - **Connector URL**: Set the `CONNECTOR_URL` to the desired URL of the connector service.
   ```env
-  CONNECTOR_URL=http://localhost:8081
+  CONNECTOR_URL=https://localhost:8081/
   ```
 
 ## Running the DSIL Connector Provider Interface
