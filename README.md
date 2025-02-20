@@ -8,8 +8,6 @@ Before proceeding, ensure you have the following installed on your system:
 
 - [Docker](https://www.docker.com/)
 - [Docker Compose](https://docs.docker.com/compose/)
-- [Running DISIL Connector](https://github.com/Data-Space-Core/Connector-Deployment)
-
 
 ## Configuration
 The Provide User Interface is configured using an environment file (.env): 
