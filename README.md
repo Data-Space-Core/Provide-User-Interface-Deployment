@@ -18,25 +18,34 @@ The Provide User Interface is configured using an environment file (.env):
   CONNECTOR_URL=http://localhost:8081
   ```
 
-## Running the Service
-1. Start the service:
+## Running the DSIL Connector Provider Interface
+Follow these steps to start the services using Docker Compose:
+
+1. **Navigate to the project directory**
+   ```
+   cd /path/to/project
+   ```
+2. **Start the containers**
    ```
    docker compose up --build -d
    ```
-
-## Checking if Running
-1. Check running containers:
+3. **Verify running containers**
    ```
    docker ps
    ```
-2. Access the application at:
+4. **Check logs if needed**
+   ```
+   docker compose logs -f <container-id>
+   ```
+   
+4. **Access DSIL Connector Provider Interface application**
    ```
    http://localhost:8000/
    ```
 
-## Shutting Down
-1. Stop the service:
-   ```
-   docker compose down -v
-   ```
+## Stopping the Services
+To stop and remove the running containers, run:
+```sh
+docker compose down -v
+```
 
