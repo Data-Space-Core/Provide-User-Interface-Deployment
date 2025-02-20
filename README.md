@@ -45,6 +45,13 @@ Follow these steps to start the services using Docker Compose:
    ```
    
 8. **Access DSIL Connector Provider Interface application**
+
+   Run migrations:
+   ```
+   docker exec -ti provide-user-interface python manage.py migrate
+   ```
+   
+   Access the interface:
    ```
    http://localhost:8000/
    ```
