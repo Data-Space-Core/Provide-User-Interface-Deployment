@@ -23,17 +23,21 @@ Follow these steps to start the services using Docker Compose:
    ```
    https://github.com/Data-Space-Core/Connector-Deployment
    ```
-3. **Clone the repository**
+2. **Clone the repository**
    ```
    git clone https://github.com/Data-Space-Core/Provide-User-Interface-Deployment.git
    ```
-4. **Navigate to the project directory**
+3. **Navigate to the project directory**
    ```
    cd Provide-User-Interface-Deployment
    ```
-5. **Start the containers**
+4. **Start the containers**
    ```
    docker compose up --build -d
+   ```
+5. **Start the containers**
+   ```
+   docker exec -ti provide-user-interface python manage.py migrate
    ```
 6. **Verify the "provide-user-interface" container is running**
    ```
@@ -45,13 +49,6 @@ Follow these steps to start the services using Docker Compose:
    ```
    
 8. **Access DSIL Connector Provider Interface application**
-
-   Run migrations:
-   ```
-   docker exec -ti provide-user-interface python manage.py migrate
-   ```
-   
-   Access the interface:
    ```
    http://localhost:8000/
    ```
