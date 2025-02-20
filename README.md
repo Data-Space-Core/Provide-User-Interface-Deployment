@@ -21,24 +21,29 @@ The Provide User Interface is configured using an environment file (.env):
 ## Running the DSIL Connector Provider Interface
 Follow these steps to start the services using Docker Compose:
 
-1. **Navigate to the project directory**
+https://github.com/Data-Space-Core/Provide-User-Interface-Deployment.git
+1. **Clone the repository**
    ```
-   cd /path/to/project
+   git clone https://github.com/Data-Space-Core/Provide-User-Interface-Deployment.git
    ```
-2. **Start the containers**
+2. **Navigate to the project directory**
+   ```
+   cd /Provide-User-Interface-Deployment
+   ```
+3. **Start the containers**
    ```
    docker compose up --build -d
    ```
-3. **Verify running containers**
+4. **Verify running containers**
    ```
    docker ps
    ```
-4. **Check logs if needed**
+5. **Check logs if needed**
    ```
    docker compose logs -f <container-id>
    ```
    
-5. **Access DSIL Connector Provider Interface application**
+6. **Access DSIL Connector Provider Interface application**
    ```
    http://localhost:8000/
    ```
