@@ -16,7 +16,7 @@ The Provide User Interface is configured using an environment file (.env):
 - **Connector URL**: Set the `CONNECTOR_URL` to the desired URL of the connector service.
   ```env
   CONNECTOR_URL=http://localhost:8081
-
+  ```
 
 ## Running the Service
 1. Start the service:
@@ -31,7 +31,7 @@ The Provide User Interface is configured using an environment file (.env):
    ```
 2. Access the application at:
    ```
-   http://localhost:8000/provide/offer/
+   http://localhost:8000/
    ```
 
 ## Shutting Down
