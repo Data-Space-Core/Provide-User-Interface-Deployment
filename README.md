@@ -35,7 +35,7 @@ Follow these steps to start the services using Docker Compose:
    ```
    docker compose up --build -d
    ```
-6. **Verify running containers**
+6. **Verify the "provide-user-interface" container is running**
    ```
    docker ps
    ```
