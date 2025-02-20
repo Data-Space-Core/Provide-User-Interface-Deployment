@@ -38,7 +38,7 @@ Follow these steps to start the services using Docker Compose:
    docker compose logs -f <container-id>
    ```
    
-4. **Access DSIL Connector Provider Interface application**
+5. **Access DSIL Connector Provider Interface application**
    ```
    http://localhost:8000/
    ```
